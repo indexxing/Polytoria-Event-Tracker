@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Polytoria Egg Hunt Tracker",
+    "version": "1.0",
+    "version_name": "2024",
+    "description": "Quickly see your Polytoria egg hunt progress at a glance on your dashboard! Created by Index.",
+    "permissions": ["storage"],
+    "content_scripts": [
+        {
+            "matches": ["https://polytoria.com/home", "https://polytoria.com/home/*"],
+            "js": ["dashboard.js"],
+            "run_at": "document_start"
+        },
+
+        {
+            "matches": ["https://polytoria.com/my/avatar?eggHunt=2024"],
+            "js": ["avatar.js"]
+        }
+    ],
+    "host_permissions": [
+        "https://*.polytoria.com/*"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["data.json"],
+            "matches": ["https://polytoria.com/*"]
+        }
+    ],
+    "short_name": "Polytoria Egg Hunt Tracker",
+    "action": {
+        "default_title": "Polytoria Egg Hunt Tracker"
+    }
+}

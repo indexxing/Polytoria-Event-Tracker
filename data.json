@@ -1,0 +1,28 @@
+{
+    "itemIDs": [
+        32309,32310,32311,32312,32313,32314,32315,32316,32317,32318,32319,32320,32321,32322,32323,32328,32329,32330,32331,32354,32358,32386,32387,32388,32389,32390,32391,32392,32393,32396,32397,32463,32467,32468,32487,32488,32489,32521,32522
+    ],
+    "itemNames": {
+        "32309": "Plain White Egg",
+        "32311": "Red Marble Egg",
+        "32313": "Blue Egg",
+        "32315": "Polytorian Egg Head",
+        "32317": "Astro-rabbit",
+        "32319": "Pharoh",
+        "32321": "Green Decorated Egg",
+        "32323": "Blue Decorated Egg",
+        "32329": "Teamwork Egg",
+        "32331": "Teamwork Egg",
+        "32358": "Mystical Void Egg",
+        "32387": "Basic Egg #2",
+        "32389": "Basic Egg #4",
+        "32391": "Basic Egg #6",
+    
+        "32397": "Pink Teapot",
+        "32467": "Green Slime Egg",
+        "32487": "500 Egg",
+    
+        "32314": "Green Applegg Of Appling Apples",
+        "32316": "Polytoria Logo Egg"
+    }
+}
